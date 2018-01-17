@@ -11,7 +11,6 @@
 
 <script>
 import AuthenticationService from '@/services/AuthenticationService'
-import Api from '@/services/Api'
 
 export default {
   data () {
