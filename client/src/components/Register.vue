@@ -11,6 +11,7 @@
 
 <script>
 import AuthenticationService from '@/services/AuthenticationService'
+import Api from '@/services/Api'
 
 export default {
   data () {
@@ -25,12 +26,10 @@ export default {
         email: this.email,
         password: this.password
       })
-      console.log(response.data)
     }
   }
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 </style>
